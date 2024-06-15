@@ -8,4 +8,4 @@
 	outputs the archive list in inc/archive-list.php.
 */
 
-get_template_part( 'singular' );
+get_template_part('singular');

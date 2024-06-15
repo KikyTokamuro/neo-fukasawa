@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------------------------
-	Block Editor Styles for Fukasawa
+	Block Editor Styles for NeoFukasawa
 ----------------------------------------------------------------------------------- */
 
 
@@ -9,26 +9,26 @@
 	font-size: 18px;
 }
 
-.editor-styles-wrapper > * {
-	color: #333;
+.editor-styles-wrapper>* {
+	color: #46556E;
 	font-family: 'Lato', sans-serif;
 }
 
 .wp-block {
-    max-width: 620px;
+	max-width: 620px;
 }
 
 .editor-styles-wrapper .editor-block-list__block[data-align="full"] {
-    max-width: none;
+	max-width: none;
 }
 
 .editor-styles-wrapper .editor-block-list__block[data-align="wide"] {
-    max-width: 93%;
+	max-width: 93%;
 }
 
 .editor-styles-wrapper .editor-block-list__block[data-align="right"] .editor-block-list__block-edit,
 .editor-styles-wrapper .editor-block-list__block[data-align="left"] .editor-block-list__block-edit {
-    max-width: 50%;
+	max-width: 50%;
 }
 
 .editor-styles-wrapper .editor-rich-text__tinymce,
@@ -48,12 +48,12 @@
 }
 
 .editor-styles-wrapper a {
-	color: #019EBD;
+	color: #818fff;
 	text-decoration: none;
 }
 
 .editor-styles-wrapper a:hover {
-	color: #019EBD;
+	color: #818fff;
 	text-decoration: underline;
 }
 
@@ -61,7 +61,7 @@
 	font-size: inherit;
 }
 
-.editor-styles-wrapper .editor-block-list__block, 
+.editor-styles-wrapper .editor-block-list__block,
 .editor-styles-wrapper .editor-block-list__block p {
 	font-size: inherit;
 }
@@ -78,31 +78,42 @@
 	margin: 50px 0 25px;
 }
 
-.editor-styles-wrapper .wp-block-heading h1 { font-size: 2em; }
-.editor-styles-wrapper .wp-block-heading h2 { font-size: 1.8em; }
-.editor-styles-wrapper .wp-block-heading h3 { font-size: 1.6em; }
-.editor-styles-wrapper .wp-block-heading h4 { font-size: 1.4em; }
-
-.editor-styles-wrapper .wp-block-heading h5 { 
-	font-size: 1.2em; 
-	font-weight: 400;  
+.editor-styles-wrapper .wp-block-heading h1 {
+	font-size: 2em;
 }
 
-.editor-styles-wrapper .wp-block-heading h6 { 
-	font-size: 0.9em; 
-	text-transform: uppercase; 
+.editor-styles-wrapper .wp-block-heading h2 {
+	font-size: 1.8em;
+}
+
+.editor-styles-wrapper .wp-block-heading h3 {
+	font-size: 1.6em;
+}
+
+.editor-styles-wrapper .wp-block-heading h4 {
+	font-size: 1.4em;
+}
+
+.editor-styles-wrapper .wp-block-heading h5 {
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.editor-styles-wrapper .wp-block-heading h6 {
+	font-size: 0.9em;
+	text-transform: uppercase;
 }
 
 p.has-drop-cap:not(:focus):first-letter {
-    font-size: 6.2em;
+	font-size: 6.2em;
 	font-weight: 400;
 }
 
 /* Monospace --------------------------------- */
 
-.editor-styles-wrapper code, 
-.editor-styles-wrapper kbd, 
-.editor-styles-wrapper pre, 
+.editor-styles-wrapper code,
+.editor-styles-wrapper kbd,
+.editor-styles-wrapper pre,
 .editor-styles-wrapper samp {
 	font-family: Menlo, Monaco, monospace !important;
 }
@@ -110,7 +121,7 @@ p.has-drop-cap:not(:focus):first-letter {
 kbd,
 pre,
 samp {
-	background: #333;
+	background: #46556E;
 	border: none;
 	border-radius: 4px;
 	color: #fff;
@@ -180,18 +191,18 @@ figure {
 table.wp-block-table {
 	border: none;
 	border-collapse: collapse;
-    border-spacing: 0;
+	border-spacing: 0;
 	empty-cells: show;
-    font-size: 18px;
-    margin-bottom: 1.1em;
-    width: 100%;
+	font-size: 18px;
+	margin-bottom: 1.1em;
+	width: 100%;
 }
 
 table.wp-block-table tbody {
 	border-top: 1px solid #DADADA;
 }
 
-table.wp-block-table thead + tbody {
+table.wp-block-table thead+tbody {
 	border-top: none;
 }
 
@@ -221,7 +232,9 @@ table.wp-block-table thead + tbody {
 	font-weight: 600;
 }
 
-.wp-block-table tbody > tr:nth-child(odd) > td { background: rgba( 0, 0, 0, 0.05 ); }
+.wp-block-table tbody>tr:nth-child(odd)>td {
+	background: rgba(0, 0, 0, 0.05);
+}
 
 
 /* Block: Separator -------------------------- */
@@ -253,7 +266,7 @@ hr.wp-block-separator {
 /* Block: File ------------------------------- */
 
 .wp-block-file {
-	background: rgba( 0, 0, 0, 0.05 );
+	background: rgba(0, 0, 0, 0.05);
 	border-radius: 4px;
 	padding: 15px 20px;
 }
@@ -299,7 +312,7 @@ blockquote {
 	font: 64px/1 "Genericons";
 	width: 64px;
 	height: 64px;
-	color: #019EBD;
+	color: #818fff;
 	position: absolute;
 	top: -4px;
 	right: -6px;
@@ -323,9 +336,9 @@ cite,
 .wp-block-quote cite,
 .wp-block-quote footer,
 .wp-block-pullquote cite,
-.wp-block-quote.is-large cite, 
-.wp-block-quote.is-large footer, 
-.wp-block-quote.is-style-large cite, 
+.wp-block-quote.is-large cite,
+.wp-block-quote.is-large footer,
+.wp-block-quote.is-style-large cite,
 .wp-block-quote.is-style-large footer {
 	color: #666;
 	font-size: 14px;
@@ -340,11 +353,11 @@ cite,
 cite:before,
 .wp-block-quote footer:before,
 .wp-block-quote__citation:before,
-.wp-block-pullquote__citation:before { 
-	content: "— "; 
+.wp-block-pullquote__citation:before {
+	content: "— ";
 }
 
-.wp-block-quote.is-large, 
+.wp-block-quote.is-large,
 .wp-block-quote.is-style-large {
 	font-size: 1.5em;
 }
@@ -359,7 +372,7 @@ cite:before,
 	text-align: left;
 }
 
-.wp-block-pullquote.alignleft, 
+.wp-block-pullquote.alignleft,
 .wp-block-pullquote.alignright {
 	max-width: 50%;
 }
@@ -379,7 +392,7 @@ cite:before,
 
 /* Block: Verse ------------------------------ */
 
-.wp-block-verse pre, 
+.wp-block-verse pre,
 pre.wp-block-verse {
 	color: #fff;
 	font-size: 0.7em;
